@@ -899,7 +899,7 @@ button{
 }
 
 .card{
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   overflow: hidden;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -915,8 +915,8 @@ button{
 
 .btn{
   border-radius: 9999px;
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-family: Roboto, sans-serif;
