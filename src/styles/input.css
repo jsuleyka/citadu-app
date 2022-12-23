@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-roboto font-bold text-xl m-0
+}
+
+p,
+a,
+button {
+  @apply font-roboto text-base
+}
+
+.card {
+  @apply bg-white rounded-lg overflow-hidden shadow-lg py-3 px-9 mb-10;
+}
+
+.btn {
+  @apply font-roboto py-3.5 px-4 rounded-full shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-primary text-white text-sm;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+

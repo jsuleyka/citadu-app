@@ -1,0 +1,7 @@
+body {
+  background: url("../images/background-circles.png") white left top no-repeat;
+  /* background: url("../images/background-circle-right.png") white right bottom no-repeat; */
+  margin: 0;
+  margin-top: 90px;
+  position: relative;
+}
