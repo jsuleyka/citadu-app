@@ -11,29 +11,34 @@
     <title>Bienvenido a Citadu</title>
   </head>
   <body>
-     <div class="container body-background mx-auto mt-5">
-      <!-- <img src="./src/images/background-circle-left.png" alt="Background" class="w-auto relative"> -->
-      
-      <div class="flex flex-col justify-center items-center">
-        <div class="w-96 card flex flex-col justify-center">
-          <h2 class="md:text-sm text-center">Bienvenido a <br>Citadu</br></h2>
-          <p class="">Vende, Anuncia, Encuentra lo que te gusta, fácil y rápido</p>
+    <div class="flex flex-col justify-center mt-5" id="spin-container" role="status">
+      <img src="./src/images/spinners.png" alt="Background Spinner" class="w-auto animate-spin">
+    </div>
 
-          <div class="mt-5 mb-10">
-            <img src="./src/images/citadu-eslogan.png" alt="Citadu Eslogan" class="w-auto m-auto">
+    <div id="body-background">
+      <div class="container mx-auto footer-background">
+        <div class="flex flex-col justify-center items-center">
+          <div class="w-96 card flex flex-col justify-center">
+            <h2 class="md:text-sm text-center">Bienvenido a <br>Citadu</br></h2>
+            <p class="">Vende, Anuncia, Encuentra lo que te gusta, fácil y rápido</p>
+
+            <div class="mt-5 mb-10">
+              <img src="./src/images/citadu-eslogan.png" alt="Citadu Eslogan" class="w-auto m-auto">
+            </div>
+
+            <img src="./src/images/welcome-img.png" alt="Welcome" class="w-full">
+            <div class="mt-2">
+              <img src="./src/images/footer-left.png" alt="Welcome" class="w-auto m-auto">
+            </div>      
           </div>
 
-          <img src="./src/images/welcome-img.png" alt="Welcome" class="w-full">
-          <div class="mt-2">
-            <img src="./src/images/footer-left.png" alt="Welcome" class="w-auto m-auto">
-          </div>      
-        </div>
-
-        <div class="w-96 my-10">
-          <button class="btn btn-primary w-full">Confirmar</button>
-          <!-- <img src="./src/images/background-circle-right.png" alt="Background Right" class="absolute"> -->
+          <div class="w-96 my-10">
+            <button class="btn btn-primary w-full">Confirmar</button>
+          </div>
         </div>
       </div>
     </div>
+       
+    <script src="app.js"></script>
   </body>
 </html>
