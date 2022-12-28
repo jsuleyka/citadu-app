@@ -10,11 +10,11 @@ body {
 
 #body-background {
   background: url("../images/background-circle-left.png") white left top no-repeat;
-  background-size: 290px 360px;
+  background-size: 290px 330px;
   padding-top: 40px;
 }
 
 .footer-background {
   background: url("../images/background-circle-right.png") transparent right bottom no-repeat;
-  background-size: 290px 360px;
+  background-size: 230px 290px;
 }
