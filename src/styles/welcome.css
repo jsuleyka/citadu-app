@@ -5,13 +5,16 @@ body {
 
 #spin-container {
   background: url("../images/citadu-vertical-logo.png") white center center no-repeat;
+  background-size: 60px 70px;
 }
 
 #body-background {
   background: url("../images/background-circle-left.png") white left top no-repeat;
-  padding-top: 80px;
+  background-size: 290px 360px;
+  padding-top: 40px;
 }
 
 .footer-background {
   background: url("../images/background-circle-right.png") transparent right bottom no-repeat;
+  background-size: 290px 360px;
 }
